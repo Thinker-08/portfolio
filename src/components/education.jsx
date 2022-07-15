@@ -2,7 +2,7 @@ import React from "react";
 
 const education = () => {
   return (
-    <div id="education" className="flex mx-4 flex-wrap w-6/6 h-auto py-36 pl-16">
+    <div id="education" className="bg-white flex mx-4 flex-wrap w-6/6 h-auto py-36 pl-16">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis
       vitae felis quis scelerisque. Quisque diam libero, pharetra quis orci
       quis, lobortis placerat enim. Lorem ipsum dolor sit amet, consectetur
