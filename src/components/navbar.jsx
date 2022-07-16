@@ -23,14 +23,9 @@ const Navbar = () => {
                 About
               </i>
             </HashLink>
-            <HashLink smooth to="#education"> 
+            <HashLink smooth to="#education and Work Experience"> 
               <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500 ">
-                Education
-              </i>
-            </HashLink>
-            <HashLink smooth to="#projects">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500 ">
-                Projects
+                Education & Experience
               </i>
             </HashLink>
             <HashLink smooth to="#certificates">
@@ -49,7 +44,7 @@ const Navbar = () => {
               </i>
             </HashLink>
             <HashLink smooth to="#contact">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500 ">
+              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold px-1 py-1 hover:text-sky-500 ">
                 Contact
               </i>
             </HashLink>

@@ -9,9 +9,9 @@ import Movie from "./movie"
 import Sports from "./sports"
 const about = () => {
   return (
-    <div id="about" className="bg-white flex  flex-wrap w-6/6 h-auto pl-16">
+    <div id="about" className=" flex flex-wrap w-6/6 h-auto pl-16">
       <div className="flex ml-16 mr-16 mt-24 ">
-        <div className="bg-slate-300 ml-32 my-4 w-1/1 py-1 ">
+        <div className="bg-slate-300 rounded-lg ml-32 my-4 w-1/1 py-1 ">
           <Sample height="500px" width="400px" />
         </div>
         <div className="  my-4 w-1/2 py-1 pl-16 text-left ">

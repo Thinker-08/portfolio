@@ -20,7 +20,6 @@ function App() {
       <Home/>
       <About/>
       <Education/>
-      <Projects/>
       <Certificates/>
       <Awards/>
       <Skills/>

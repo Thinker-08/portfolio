@@ -1,45 +1,83 @@
 import React from "react";
+import Edu from "./educ";
+import Point from "./point";
+import Suitcase from "./suitcase";
 
 const education = () => {
   return (
-    <div id="education" className="bg-white flex mx-4 flex-wrap w-6/6 h-auto py-36 pl-16">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis
-      vitae felis quis scelerisque. Quisque diam libero, pharetra quis orci
-      quis, lobortis placerat enim. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Cras at finibus libero, in volutpat ipsum. Nunc semper
-      vitae massa et gravida. Curabitur euismod nulla tellus, vel pulvinar purus
-      tempor a. Integer pellentesque blandit blandit. Orci varius natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Pellentesque in neque vitae eros sagittis porta ac euismod elit. In nulla
-      sapien, porta non convallis et, efficitur nec odio. Proin vel neque eros.
-      Nam pulvinar nisl eget vulputate tincidunt. Praesent rhoncus facilisis
-      massa vitae vulputate. Ut malesuada consequat dapibus. Sed cursus, odio
-      vitae semper placerat, turpis erat consequat diam, vitae pretium enim
-      ipsum at dui. Sed sollicitudin ultricies imperdiet. Ut vitae orci a dolor
-      convallis pellentesque. Aenean at justo id ipsum dictum dictum.
-      Pellentesque id elementum ipsum, eu bibendum augue. Vestibulum suscipit
-      nulla vel odio porta dignissim. Nulla luctus orci sit amet lorem gravida
-      sodales. Duis eget erat metus. Etiam suscipit quis purus sit amet ornare.
-      Fusce faucibus augue ex, pulvinar gravida dui hendrerit vel. Vivamus sit
-      amet arcu et augue molestie cursus at vitae mauris. Fusce vel nisl ex. Sed
-      nec sollicitudin odio. Ut non lobortis magna. Nunc sit amet eros quis elit
-      varius maximus rhoncus ac leo. Cras nisl risus, fringilla a lobortis nec,
-      accumsan nec neque. Suspendisse et lobortis velit. Suspendisse
-      sollicitudin egestas tortor vitae maximus. Nam ornare libero quis
-      facilisis faucibus. Nulla mauris lorem, condimentum vitae velit vitae,
-      tincidunt volutpat libero. Interdum et malesuada fames ac ante ipsum
-      primis in faucibus. Aliquam a felis fermentum, lobortis risus quis,
-      fermentum sapien. Fusce turpis erat, aliquam eu libero vitae, eleifend
-      interdum odio. Cras ut lacus quis nunc porttitor mattis. Phasellus quam
-      sapien, aliquam ac convallis nec, elementum in risus. Aenean a urna
-      cursus, mattis magna sed, consectetur enim. Praesent quam quam, tempus eu
-      ipsum sed, varius auctor mauris. Proin nec velit dapibus, malesuada nisi
-      in, porta lacus. Curabitur ac vulputate lorem. Mauris et felis metus.
-      Aliquam metus ex, consectetur non lectus sit amet, convallis ultricies
-      odio. Nunc rutrum lorem ac arcu fermentum congue. Integer et magna ac
-      tortor posuere dictum ut sit amet nisl. Maecenas et urna a tortor molestie
-      commodo. Praesent arcu urna, malesuada in ullamcorper sit amet, pretium
-      sed enim. Pellentesque non finibus libero, non tincidunt risus.
+    <div
+      id="education and Work Experience"
+      className="bg-slate-300 mt-10 w-6/6 h-auto pl-16 pt-24 pb-16"
+    >
+      <p className="text-cyan-600 font-semibold text-2xl">My Qualifications</p>
+      <p className="text-5xl font-semibold text-blue-900">Awesome Journey</p>
+      <div className=" ml-36 mr-52 mt-5">
+        <div className="flex ">
+          <div className="flex pt-4 w-1/2 ">
+            <Edu height="50px" width="50px" />
+            <p className="text-blue-900 pt-2 pl-2 text-3xl font-bold">
+              Education
+            </p>
+          </div>
+          <div className="flex pt-3 w-1/2 ">
+            <Suitcase height="40px" width="40px" />
+            <p className="text-blue-900 pt-2 pl-2 text-3xl font-bold ">
+              Experience
+            </p>
+          </div>
+        </div>
+        <div className="flex ">
+          <div>
+            <div className="flex pl-1 pt-3 ">
+              <Point height="40px" width="40px" />
+              <div className="text-left">
+                <p className="text-2xl  font-bold text-blue-800">National Institute of Technology, Kurukshetra</p>
+                <p className="text-xl pt-0 font-bold text-cyan-600">Bachelor of Technology</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">2020-2024</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">9.57 CGPA</p>
+              </div>
+            </div>
+            <div className="flex pl-1 pt-3 ">
+              <Point height="40px" width="40px"/>
+              <div className="text-left">
+                <p className="text-2xl  font-bold text-blue-800">Cathedral Senior Secondary School, Lucknow</p>
+                <p className="text-xl pt-0 font-bold text-cyan-600">High Secondary (PCM)</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">96.2%</p>
+                <p className="text-xl pt-0 font-bold text-cyan-600">Senior Secondary</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">97.4%</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">2006-2020</p>
+              </div>
+            </div>
+          </div>
+          <div>
+          <div className="flex pl-9 pt-1 ">
+              <Point height="40px" width="40px" />
+              <div className="text-left w-auto">
+                <p className="text-2xl  font-bold text-blue-800">Automated File Approval System in a Department</p>
+                <p className="text-xl pt-0 font-bold text-cyan-600">Tech Used: React, MongoDB, JavaScript, Express, NodeJS</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">Apr 22 - May 22</p>
+                <p className="w-1/1 flex flex-wrap text-lg pt-0 font-semibold text-blue-900">
+                An automated approval process for submitting, routing and
+                </p>
+                <p className="w-1/1 flex flex-wrap text-lg pt-0 font-semibold text-blue-900">
+                  collaborating on a variety of document types
+                  to make 
+                </p>
+                <p className="w-1/1 flex flex-wrap text-lg pt-0 font-semibold text-blue-900">approval decisions.</p>
+              </div>
+            </div>
+            <div className="flex pl-9 pt-3 ">
+              <Point height="40px" width="40px"/>
+              <div className="text-left">
+                <p className="text-2xl  font-bold text-blue-800">NewsApp </p>
+                <p className="text-xl pt-0 font-bold text-cyan-600">Tech Used:React, NewsAPI, JavaScript</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">Jun 22-July 22</p>
+                <p className="text-lg pt-0 font-semibold text-blue-900">A website which displays top news headlines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
