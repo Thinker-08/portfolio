@@ -1,8 +1,8 @@
 import React from 'react'
-import Instagram from './instagram'
-import Github from './github'
-import Linkedin from './linkedin'
-import Twitter from './twitter'
+import Instagram from './ImgJSX/instagram'
+import Github from './ImgJSX/github'
+import Linkedin from './ImgJSX/linkedin'
+import Twitter from './ImgJSX/twitter'
 const socials = () => {
   return (
     <div className='fixed h-screen py-56'>

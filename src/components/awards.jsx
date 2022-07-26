@@ -1,45 +1,37 @@
 import React from "react";
-
+import Contests from "./ImgJSX/contests.jsx";
+import Microsoft from "./ImgJSX/microsoft.jsx"
+import Code from "./ImgJSX/code.jsx"
+import Ninja from "./ImgJSX/ninja.jsx"
+import GFG from "./ImgJSX/GFG.jsx"
 const Awards = () => {
   return (
-    <div id="awards" className="flex mx-4 flex-wrap w-6/6 h-auto py-36 pl-16">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis
-      vitae felis quis scelerisque. Quisque diam libero, pharetra quis orci
-      quis, lobortis placerat enim. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Cras at finibus libero, in volutpat ipsum. Nunc semper
-      vitae massa et gravida. Curabitur euismod nulla tellus, vel pulvinar purus
-      tempor a. Integer pellentesque blandit blandit. Orci varius natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Pellentesque in neque vitae eros sagittis porta ac euismod elit. In nulla
-      sapien, porta non convallis et, efficitur nec odio. Proin vel neque eros.
-      Nam pulvinar nisl eget vulputate tincidunt. Praesent rhoncus facilisis
-      massa vitae vulputate. Ut malesuada consequat dapibus. Sed cursus, odio
-      vitae semper placerat, turpis erat consequat diam, vitae pretium enim
-      ipsum at dui. Sed sollicitudin ultricies imperdiet. Ut vitae orci a dolor
-      convallis pellentesque. Aenean at justo id ipsum dictum dictum.
-      Pellentesque id elementum ipsum, eu bibendum augue. Vestibulum suscipit
-      nulla vel odio porta dignissim. Nulla luctus orci sit amet lorem gravida
-      sodales. Duis eget erat metus. Etiam suscipit quis purus sit amet ornare.
-      Fusce faucibus augue ex, pulvinar gravida dui hendrerit vel. Vivamus sit
-      amet arcu et augue molestie cursus at vitae mauris. Fusce vel nisl ex. Sed
-      nec sollicitudin odio. Ut non lobortis magna. Nunc sit amet eros quis elit
-      varius maximus rhoncus ac leo. Cras nisl risus, fringilla a lobortis nec,
-      accumsan nec neque. Suspendisse et lobortis velit. Suspendisse
-      sollicitudin egestas tortor vitae maximus. Nam ornare libero quis
-      facilisis faucibus. Nulla mauris lorem, condimentum vitae velit vitae,
-      tincidunt volutpat libero. Interdum et malesuada fames ac ante ipsum
-      primis in faucibus. Aliquam a felis fermentum, lobortis risus quis,
-      fermentum sapien. Fusce turpis erat, aliquam eu libero vitae, eleifend
-      interdum odio. Cras ut lacus quis nunc porttitor mattis. Phasellus quam
-      sapien, aliquam ac convallis nec, elementum in risus. Aenean a urna
-      cursus, mattis magna sed, consectetur enim. Praesent quam quam, tempus eu
-      ipsum sed, varius auctor mauris. Proin nec velit dapibus, malesuada nisi
-      in, porta lacus. Curabitur ac vulputate lorem. Mauris et felis metus.
-      Aliquam metus ex, consectetur non lectus sit amet, convallis ultricies
-      odio. Nunc rutrum lorem ac arcu fermentum congue. Integer et magna ac
-      tortor posuere dictum ut sit amet nisl. Maecenas et urna a tortor molestie
-      commodo. Praesent arcu urna, malesuada in ullamcorper sit amet, pretium
-      sed enim. Pellentesque non finibus libero, non tincidunt risus.
+    <div id="awards" className="pl-16 pt-16 pr-8 border-black border-4 bg-slate-300 pb-28">
+      <div className="flex h-full">
+        <div className="  w-1/3 place-content-center pl-28"> 
+            <Contests height="200px" width="250px"/>
+            <div className="flex">
+            <img src="https://i.pinimg.com/originals/73/e1/54/73e15422011e763ea9b303a7738e71a3.gif" alt="leet" height="150px" width="150px" />  
+            <img src="https://media1.giphy.com/media/2epS8zhisYtHDCKrWv/giphy.gif" alt="gg" height="150px" width="150px"/> 
+            </div>
+            <Microsoft height="100px" width="250px" />
+        </div>
+        <div className="h-full w-1/3 rounded-2xl bg-white">
+        <p className="text-cyan-600 font-semibold text-2xl pt-2">My Certifications</p>
+        <p className="text-4xl font-semibold text-blue-900 pb-14">My Accomplishments</p>
+        </div>
+        <div className="h-1/1  w-1/3 ">
+        <div className="pl-8">
+          <GFG/>
+        </div>
+          <div className="pl-28">
+          <Code height="200px" width="200px"/>
+          </div>
+          <div className="pl-28 pt-10">
+          <Ninja/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

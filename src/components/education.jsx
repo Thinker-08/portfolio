@@ -1,13 +1,13 @@
 import React from "react";
-import Edu from "./educ";
-import Point from "./point";
-import Suitcase from "./suitcase";
+import Edu from "./ImgJSX/educ";
+import Point from "./ImgJSX/point";
+import Suitcase from "./ImgJSX/suitcase";
 
 const education = () => {
   return (
     <div
-      id="education and Work Experience"
-      className="bg-slate-300 mt-10 w-6/6 h-auto pl-16 pt-24 pb-16"
+      id="education and project"
+      className="bg-slate-300 mt-10 w-6/6 h-auto pl-16 pt-24 pb-20  "
     >
       <p className="text-cyan-600 font-semibold text-2xl">My Qualifications</p>
       <p className="text-5xl font-semibold text-blue-900">Awesome Journey</p>

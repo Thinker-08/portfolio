@@ -1,15 +1,15 @@
 import React from "react";
-import Sample from "./sample";
-import User from "./user";
-import Phone from './phone'
-import Mail from "./mail"
-import Music from "./music"
-import Travel from "./travel"
-import Movie from "./movie"
-import Sports from "./sports"
+import Sample from "./ImgJSX/sample";
+import User from "./ImgJSX/user";
+import Phone from './ImgJSX/phone'
+import Mail from "./ImgJSX/mail"
+import Music from "./ImgJSX/music"
+import Travel from "./ImgJSX/travel"
+import Movie from "./ImgJSX/movie"
+import Sports from "./ImgJSX/sports"
 const about = () => {
   return (
-    <div id="about" className=" flex flex-wrap w-6/6 h-auto pl-16">
+    <div id="about" className=" flex flex-wrap w-6/6 h-auto pl-16 pb-2">
       <div className="flex ml-16 mr-16 mt-24 ">
         <div className="bg-slate-300 rounded-lg ml-32 my-4 w-1/1 py-1 ">
           <Sample height="500px" width="400px" />

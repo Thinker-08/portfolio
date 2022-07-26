@@ -1,14 +1,14 @@
 import React from "react";
-import Myphoto from "./myphoto";
+import Myphoto from "./ImgJSX/myphoto";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
 
 const about = () => {
   return (
     <BrowserRouter>
-      <div className="bg-slate-300 flex py-24 pl-16 pr-10" id="home">
-        <div className=" text-left flex-wrap  w-4/6 py-16 pl-10 mr-8 rounded-full">
-          <p className="text-5xl text-cyan-600">Hi, I am</p>
+      <div className="  bg-slate-300 flex py-24 pl-16 pr-10" id="home">
+        <div className="text-left flex-wrap  w-4/6 py-16 pl-10 mr-8 rounded-full">
+          <p className="animate-bounce text-5xl text-cyan-600">Hi, I am</p>
           <p className="text-7xl text-blue-900 font-semibold">Mihir Agrawal</p>
           <p className="text-4xl text-blue-600 font-medium py-2">
             Web Developer and Competitive Programmer
