@@ -7,8 +7,7 @@ const education = () => {
   return (
     <div
       id="education and project"
-      className="bg-slate-300 mt-10 w-6/6 h-auto pl-16 pt-24 pb-20  "
-    >
+      className="bg-slate-300 mt-10 w-6/6 h-auto pl-16 pt-24 pb-20  ">
       <p className="text-cyan-600 font-semibold text-2xl">My Qualifications</p>
       <p className="text-5xl font-semibold text-blue-900">Awesome Journey</p>
       <div className=" ml-36 mr-52 mt-5">

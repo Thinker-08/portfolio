@@ -14,37 +14,37 @@ const Navbar = () => {
           <div className="w-1/3"></div>
           <div className="py-3 text-blue-900 font-sans">
           <HashLink smooth to="#home">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
+              <i className=" transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
                 Home
               </i>
             </HashLink>
             <HashLink smooth to="#about">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
                 About
               </i>
             </HashLink>
             <HashLink smooth to="#education and project"> 
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500 ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500 ">
                 Education & Projects
               </i>
             </HashLink>
             <HashLink smooth to="#certificates">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
                 Certificates and Courses
               </i>
             </HashLink>
             <HashLink smooth to="#awards">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
                 Awards and Achievements
               </i>
             </HashLink>
             <HashLink smooth to="#skills">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
                 Skills
               </i>
             </HashLink>
             <HashLink smooth to="#contact">
-              <i className="transition ease-in-out delay-100 duration-300 mx-1 text-lg not-italic font-semibold px-1 py-1 hover:text-sky-500 ">
+              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold px-1 py-1 hover:text-sky-500 ">
                 Contact
               </i>
             </HashLink>

@@ -1,47 +1,62 @@
 import React from "react";
 
-const skills = () => {
+const Skills = () => {
   return (
-    <div id="skills" className="flex mx-4 flex-wrap w-6/6 h-auto py-36 pl-16">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis
-      vitae felis quis scelerisque. Quisque diam libero, pharetra quis orci
-      quis, lobortis placerat enim. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Cras at finibus libero, in volutpat ipsum. Nunc semper
-      vitae massa et gravida. Curabitur euismod nulla tellus, vel pulvinar purus
-      tempor a. Integer pellentesque blandit blandit. Orci varius natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Pellentesque in neque vitae eros sagittis porta ac euismod elit. In nulla
-      sapien, porta non convallis et, efficitur nec odio. Proin vel neque eros.
-      Nam pulvinar nisl eget vulputate tincidunt. Praesent rhoncus facilisis
-      massa vitae vulputate. Ut malesuada consequat dapibus. Sed cursus, odio
-      vitae semper placerat, turpis erat consequat diam, vitae pretium enim
-      ipsum at dui. Sed sollicitudin ultricies imperdiet. Ut vitae orci a dolor
-      convallis pellentesque. Aenean at justo id ipsum dictum dictum.
-      Pellentesque id elementum ipsum, eu bibendum augue. Vestibulum suscipit
-      nulla vel odio porta dignissim. Nulla luctus orci sit amet lorem gravida
-      sodales. Duis eget erat metus. Etiam suscipit quis purus sit amet ornare.
-      Fusce faucibus augue ex, pulvinar gravida dui hendrerit vel. Vivamus sit
-      amet arcu et augue molestie cursus at vitae mauris. Fusce vel nisl ex. Sed
-      nec sollicitudin odio. Ut non lobortis magna. Nunc sit amet eros quis elit
-      varius maximus rhoncus ac leo. Cras nisl risus, fringilla a lobortis nec,
-      accumsan nec neque. Suspendisse et lobortis velit. Suspendisse
-      sollicitudin egestas tortor vitae maximus. Nam ornare libero quis
-      facilisis faucibus. Nulla mauris lorem, condimentum vitae velit vitae,
-      tincidunt volutpat libero. Interdum et malesuada fames ac ante ipsum
-      primis in faucibus. Aliquam a felis fermentum, lobortis risus quis,
-      fermentum sapien. Fusce turpis erat, aliquam eu libero vitae, eleifend
-      interdum odio. Cras ut lacus quis nunc porttitor mattis. Phasellus quam
-      sapien, aliquam ac convallis nec, elementum in risus. Aenean a urna
-      cursus, mattis magna sed, consectetur enim. Praesent quam quam, tempus eu
-      ipsum sed, varius auctor mauris. Proin nec velit dapibus, malesuada nisi
-      in, porta lacus. Curabitur ac vulputate lorem. Mauris et felis metus.
-      Aliquam metus ex, consectetur non lectus sit amet, convallis ultricies
-      odio. Nunc rutrum lorem ac arcu fermentum congue. Integer et magna ac
-      tortor posuere dictum ut sit amet nisl. Maecenas et urna a tortor molestie
-      commodo. Praesent arcu urna, malesuada in ullamcorper sit amet, pretium
-      sed enim. Pellentesque non finibus libero, non tincidunt risus.
+    <div id="skills" className="w-6/6 h-auto pl-16 pt-20 pb-24 pr-8">
+    <p className="text-cyan-600 font-semibold text-2xl ">My Skills</p>
+      <p className="text-5xl font-semibold text-blue-900 pb-10  ">Awesome Journey</p>
+    <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 bg-slate-300 p-12 ml-10 mr-10 pb-20 rounded-2xl shadow-lg">
+        <div className="w-auto relative pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">C/C++</p>
+        <p className="text-end font-semibold pt-8 text-blue-900">90%</p>
+        </div>
+          <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+          <div className="w-11/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+        <div className="w-auto relative pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">Data Structures and Algorithms</p>
+        <p className="text-end font-semibold pt-8  text-blue-900">90%</p>
+        </div>
+            <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+            <div className="w-11/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+        <div className="w-auto relative  pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">MERN Full Stack Developer</p>
+        <p className="text-end font-semibold pt-8  text-blue-900">80%</p>
+        </div>
+            <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+            <div className="w-10/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+        <div className="w-auto relative pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">Python</p>
+        <p className="text-end font-semibold pt-8  text-blue-900">60%</p>
+        </div>
+            <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+            <div className="w-7/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+        <div className="w-auto relative pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">JavaScript</p>
+        <p className="text-end font-semibold pt-8  text-blue-900">70%</p>
+        </div>
+            <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+            <div className="w-9/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+        <div className="w-auto relative pb-7 ">
+        <div className="flex">
+        <p className="text-[1.675rem] text-start font-semibold pt-3 w-11/12 text-blue-900">NoSQL</p>
+        <p className="text-end font-semibold pt-8  text-blue-900">70%</p>
+        </div>
+            <div className="w-full bg-cyan-500 h-3 absolute rounded-2xl"></div>
+            <div className="w-9/12 bg-blue-800 h-3 absolute rounded-2xl"></div>
+        </div> 
+      </div>
     </div>
   );
 };
 
-export default skills;
+export default Skills;

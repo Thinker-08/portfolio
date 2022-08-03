@@ -14,7 +14,7 @@ const about = () => {
         <div className="bg-slate-300 rounded-lg ml-32 my-4 w-1/1 py-1 ">
           <Sample height="500px" width="400px" />
         </div>
-        <div className="  my-4 w-1/2 py-1 pl-16 text-left ">
+        <div className="  my-4 w-1/2 py-1 pl-16 text-left shadow-2xl ml-5 pr-5 rounded-2xl">
           <p className="text-4xl text-cyan-600 font-semibold">My Intro</p>
           <p className="text-6xl text-blue-900 font-medium py-1">About Me</p>
           <p className="text-xl ">
@@ -23,7 +23,7 @@ const about = () => {
             solve modern-day problems.
             <div className="my-5">
               <div className="flex py-3">
-                <User height="40px" width="40px" />
+                <User height="40px" width="40px"/>
                 <p className="pl-3 text-xl py-1 font-bold text-blue-900">Name</p>
                 <p className="mx-24 text-xl py-1 font-bold text-blue-900">:</p>
                 <p className="py-1 text-xl text-semibold text-left">Mihir Agrawal</p>
