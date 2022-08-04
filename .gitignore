@@ -6,6 +6,8 @@
 .pnp.js
 /Resume
 .env 
+/src/components/images
+/src/components/ImgJSX
 # testing
 /coverage
 

@@ -7,19 +7,17 @@ const Contact = () => {
     setDet({...det,[e.target.name]:e.target.value})
   }
   let   details = {
-    "service":process.env.REACT_APP_SERVICE_ID,
-    "template":process.env.REACT_APP_TEMPLATE_ID ,
-    "key":process.env.REACT_APP_PUBLIC_KEY
+    service:process.env.REACT_APP_SERVICE_ID,
+    template:process.env.REACT_APP_TEMPLATE_ID ,
+    key:process.env.REACT_APP_PUBLIC_KEY
   }
   const form = useRef();
   const sendmail=(e)=>{
     e.preventDefault();
     emailjs.sendForm(details.service, details.template, form.current, details.key)
-    
       .then((result) => {
           console.log(result.text);
       }, (error) => {
-        console.log(form)
           console.log(error.text);
       });
       setDet({name:"",email:"",message:""})

@@ -14,7 +14,7 @@ const about = () => {
         <div className="bg-slate-300 rounded-lg ml-32 my-4 w-1/1 py-1 ">
           <Sample height="500px" width="400px" />
         </div>
-        <div className="  my-4 w-1/2 py-1 pl-16 text-left shadow-2xl ml-5 pr-5 rounded-2xl">
+        <div className="  my-4 w-1/2 py-1 pl-16 text-left shadow-2xl ml-5 pr-10 pt-5 rounded-2xl ">
           <p className="text-4xl text-cyan-600 font-semibold">My Intro</p>
           <p className="text-6xl text-blue-900 font-medium py-1">About Me</p>
           <p className="text-xl ">
