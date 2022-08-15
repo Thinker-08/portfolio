@@ -107,11 +107,103 @@
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
 }
+.change-about{
+  margin-left: 10rem/* 128px */;
+}
+.change-intro{
+  width: 66.6666%;
+}
+.change-about-container{
+    width: 50%;
+}
+.change-education{
+  margin-left: 9rem;
+  margin-right: 13rem;
+  margin-top: 1.25rem;
+}
+.change-certificates-container{
+  height: 39rem;
+}
+.change-education-container{
+  height: 45rem;
+}
+.change-certificates-item{
+  width: 27.9rem;
+  height: 12rem;
+}
+.change-awards{
+  width: 33.3333333%;
+}
+.change-skill-bar{
+  width: 37rem;
+}
+.change-intro-container{
+  padding-top: 10rem;
+}
+.change-skills{
+  margin-right: 2.5rem;
+}
 @media (max-width: 768px) {
+  .change-skills-heading{
+    margin-right: 10rem;
+  }
+  .change-education-heading{
+    margin-left: 0rem;
+    margin-right: 10rem;
+  }
+  .change-intro-container{
+    width: 48rem;
+    padding-top: 7rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+  }
+  .change-awards{
+    width: 75%;
+    margin-left: 2rem;
+    margin-right: 10rem;
+  }
+  .dis{
+    display: none;
+  }
+  .change-certificates-item{
+    width: 17.7rem;
+  }
+  .change-certificates-container{
+    height: 52rem;
+    margin-right: 10rem;
+  }
+  .change-education-container{
+    height: 50rem;
+  }
+  .change-intro{
+    text-align: center;
+    width: 100%;
+    padding-left: 0rem;
+  }
+  .change-intro-photo{
+    padding-left: 6rem;
+  }
+  .change-about-photo{
+    display: none;
+  }
+  .change-about{
+    margin-left: 0rem;
+    margin-right: 11rem;
+  }
+  .change-about-container{
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  .change-about-heading{
+    text-align: center;
+  }
   .navbar {
     opacity: 0.95;
   }
-
+  .change-education{
+    margin-left: 2rem;
+    margin-right: 10rem;
+  }
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;

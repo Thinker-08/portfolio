@@ -6,14 +6,14 @@ import { BrowserRouter } from "react-router-dom";
 const about = () => {
   return (
     <BrowserRouter>
-      <div className="  bg-slate-300 flex pt-40 pb-12 pl-16 pr-10" id="home">
-        <div className="text-left flex-wrap  w-4/6 py-16 pl-10 mr-8 rounded-full">
+      <div className="  bg-slate-300 flex flex-wrap pb-12 pl-16 change-intro-container" id="home">
+        <div className="text-left flex-wrap  py-16 pl-10 rounded-full pr-2 change-intro">
           <p className="animate-bounce text-5xl text-cyan-600">Hi, I am</p>
           <p className="text-7xl text-blue-900 font-semibold">Mihir Agrawal</p>
           <p className="text-4xl text-blue-600 font-medium py-2">
             Web Developer and Competitive Programmer
           </p>
-          <p className="text-xl ">
+          <p className="text-xl w-auto">
             In some ways, programming is like painting. You start with a blank
             canvas and certain basic raw materials. You use a combination of
             science, art, and craft to determine what to do with them.
@@ -31,8 +31,8 @@ const about = () => {
             </div>
           </p>
         </div>
-        <div>
-          <Myphoto width="500px" height="500px" />
+        <div className="change-intro-photo">
+          <Myphoto width="450px" height="450px"/>
         </div>
       </div>
     </BrowserRouter>

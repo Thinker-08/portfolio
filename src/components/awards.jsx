@@ -11,8 +11,8 @@ const Awards = () => {
   return (
     <div id="awards" className="pl-16 pt-24 pr-8 bg-slate-300 pb-20 ">
       <div className="flex h-full">
-        <div className="  w-1/3 place-content-center pl-28">
-          <Contests height="200px" width="250px" />
+        <div className="  w-1/3 place-content-center pl-28 dis">
+          <Contests height="200px" width="250px"/>
           <div className="flex">
             <img
               src="https://i.pinimg.com/originals/73/e1/54/73e15422011e763ea9b303a7738e71a3.gif"
@@ -27,9 +27,9 @@ const Awards = () => {
               width="150px"
             />
           </div>
-          <Microsoft height="100px" width="250px" />
+          <Microsoft height="100px" width="250px"/>
         </div>
-        <div className="h-full w-1/3 rounded-2xl bg-white shadow-lg">
+        <div className="h-full change-awards rounded-2xl bg-white shadow-lg">
           <p className="text-cyan-600 font-semibold text-2xl pt-2">
             My Awards
           </p>
@@ -78,7 +78,7 @@ const Awards = () => {
             </p>
           </div>
         </div>
-        <div className="h-1/1  w-1/3 ">
+        <div className="h-1/1  w-1/3 dis">
           <div className="pl-8">
             <GFG />
           </div>
