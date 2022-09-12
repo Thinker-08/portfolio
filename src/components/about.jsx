@@ -17,7 +17,7 @@ const about = () => {
           <p className="text-4xl text-cyan-600 font-semibold change-about-heading">My Intro</p>
           <p className="text-6xl text-blue-900 font-medium py-1 change-about-heading">About Me</p>
           <p className="text-xl change-about-heading">
-            Future Engineer. I am currently a second-year student at NIT
+            Future Engineer. I am currently a third year student at NIT
             Kurukshetra who focuses on Electrical and Programming skills to
             solve modern-day problems.
             <div className="my-5">
