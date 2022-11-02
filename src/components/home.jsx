@@ -1,8 +1,8 @@
 import React from "react";
 import Myphoto from "./ImgJSX/myphoto";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import About from "./about.jsx"
 const about = () => {
   return (
     <BrowserRouter>
@@ -18,11 +18,12 @@ const about = () => {
             canvas and certain basic raw materials. You use a combination of
             science, art, and craft to determine what to do with them.
             <div className="my-10">
-              <button className="transition ease-in-out delay-50 duration-200 hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-5 px-7 mx-4 rounded-full">
-                <a href="/Resume/Resume.pdf" download>
-                  Download CV
-                </a>
+            <Routes>
+              <button className="transition ease-in-out delay-50 duration-200 hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-5 px-7 mx-4 rounded-full" onClick={console.log("Clicked")}>
+                  <Route exact path="/about" element={<About />}/>
+                About Me  
               </button>
+              </Routes>
               <HashLink smooth to="#contact">
                 <button className="transition ease-in-out delay-50 duration-200 hover:scale-105 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-5 px-7 mx-4 border border-blue-500 rounded-full">
                   Contact Me

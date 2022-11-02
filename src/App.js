@@ -7,7 +7,6 @@ import Certificates from "./components/certificates.jsx";
 import Awards from "./components/awards";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
-import About from "./components/about";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Socials/>
       <div className="flex flex-col ">
       <Home/>
-      <About/>
       <Education/>
       <Certificates/>
       <Awards/>

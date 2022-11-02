@@ -22,11 +22,6 @@ const Navbar = () => {
               </HashLink>
               </li>
               <li>
-              <HashLink smooth to="#about">
-              <i className="transition ease-in-out delay-50 duration-300 mx-1 text-lg not-italic font-semibold  px-1 py-1 hover:text-sky-500  ">
-                About
-              </i>
-            </HashLink>
               </li>
               <li>
               <HashLink smooth to="#education and project"> 
