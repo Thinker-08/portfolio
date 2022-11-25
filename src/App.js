@@ -1,29 +1,17 @@
 import "./App.css";
-import Navbar from "./components/navbar";
-import Socials from "./components/socials";
-import Home from "./components/home";
-import Education from "./components/education";
-import Certificates from "./components/certificates.jsx";
-import Awards from "./components/awards";
-import Skills from "./components/skills";
-import Contact from "./components/contact";
-
+import About from "./components/about"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/main.jsx"
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
-    <div className="flex flex-row">
-      <Socials/>
-      <div className="flex flex-col ">
-      <Home/>
-      <Education/>
-      <Certificates/>
-      <Awards/>
-      <Skills/>
-      <Contact/>
+    <BrowserRouter>
+      <div className="App">
+      <Routes>
+        <Route path="/" element={<Main />}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
       </div>
-    </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
